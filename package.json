@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "runKasir": "npx cypress run --browser 'chrome' --spec 'cypress/e2e/web-test/kasirAja.cy.js'"
+  },
+  
   "devDependencies": {
     "cypress": "^13.9.0"
   }
